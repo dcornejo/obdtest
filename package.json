@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcornejo/obdtest.git"
+  },
   "author": "Dave Cornejo <dave@dogwood.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "bluetooth-obd": "^0.2.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dcornejo/obdtest/issues"
+  },
+  "homepage": "https://github.com/dcornejo/obdtest#readme"
 }
