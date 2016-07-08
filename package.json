@@ -1,0 +1,14 @@
+{
+  "name": "obdtest",
+  "version": "1.0.0",
+  "description": "OBD-II test code",
+  "main": "obdtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Cornejo <dave@dogwood.com>",
+  "license": "Beerware",
+  "dependencies": {
+    "bluetooth-obd": "^0.2.3"
+  }
+}
