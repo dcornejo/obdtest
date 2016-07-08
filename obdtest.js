@@ -24,7 +24,7 @@ var ObdReader = new obdReader();
 
 ObdReader.on('dataReceived', function (data) {
     var currentDate = new Date();
-    console.log(currentDate.getTime());
+    console.log(currentDate.getTime(), data);
     console.log(data);
 });
 
