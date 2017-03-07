@@ -2,5 +2,8 @@
 
 This is test code derived from bluetooth-obd example by the bluetooth-obd packages author.
 
-To configure set the parameter passed to autoconnect() (bottom of file) to either the MAC address
-or print name of the OBD-II adapter.
+use ```./objtest.js -h``` for help message
+
+example: to use ttyUSB0
+
+```$ ./obdtest.js -i /dev/ttyUSB0```
