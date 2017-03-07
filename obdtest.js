@@ -86,11 +86,14 @@ serialOBDReader.on('connected', function () {
 serialOBDReader.on('dataReceived', function (data) {
     let ts = new Date().valueOf();
 
-    console.log(ts, JSON.stringify(data));
-    // alternate to 1 line above:
+    // ALTERNATE 1
+    console.log(ts + ',' + JSON.stringify(data));
+    // END ALTERNATE 1
+
+    // ALTERNATE 2
     // console.log(ts);
     // console.dir(data);
-    // end alternate
+    // END ALTERNATE 2
 });
 
 // Use first device with 'obd' in the name
